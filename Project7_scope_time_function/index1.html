@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scope</title>
+  </head>
+  <body>
+    <!--Global Variable-->
+
+    <!--<script>
+      var X = 110;
+      function Add_bricks_1() {
+        document.write(110 + X + "<br>");
+      }
+      function Add_bricks_2() {
+        document.write(X + 110);
+      }
+      Add_bricks_1();
+      Add_bricks_2();
+    </script>-->
+
+    <!--Local Variable-->
+    <!--<script>
+      function Add_numbers_tiles_1() {
+        var X = 200;
+        document.write(40 + X + "<br>" + "Tiles");
+      }
+      function Add_numbers_tiles_2() {
+        document.write(X + 100 + "Tiles");
+      }
+      Add_numbers_tiles_1();
+      Add_numbers_tiles_2();
+    </script>-->
+
+    <!-- <h1>Javascript Dates</h1>
+    <h2>Using new Date ()</h2>
+    <p>Create a new Date object with the current Date and Time</p>
+    <p id="demo"></p>-->
+
+    <!--<script>
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d;
+      console.log(d);
+    </script>-->
+
+    <!--<h1>Javascript Dates</h1>
+    <h2>The GetMonth() Method</h2>
+    <p>Return the Months of a date as a number from 0 to 23.</p>
+    <p>To get the correct Month number:</p>-->
+
+    <!--<p id="demo" onclick="new Date()">Click Here</p>
+
+    <!--<script>
+      const d = new Date("2025-07-25");
+      document.getElementById("demo").innerHTML = d.getHours();
+
+      new Date();
+    </script>-->
+    <!--<script>
+      const d = new Date("2023-03-24");
+      document.getElementById("demo").innerHTML = d.getHours();
+    </script>-->
+    <!--<p id="demo"></p>
+    <script>
+      const d = new Date();
+      let time = d.getTime();
+      document.getElementById("demo").innerHTML = time;
+    </script>-->
+
+    <!--<p>a Time-Based Greeting</p>
+
+    <p id="demo"></p>
+
+    <script>
+      const hour = new Date().getHours();
+      let greeting;
+
+      if (hour < 18) {
+        greeting = "Good Day!";
+      } else {
+        greeting = " Good Evening!";
+      }
+
+      document.getElementById("demo").innerHTML = greeting;
+    </script>-->
+    <!--<p>Tells you what part of Day it is by Time</p>
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time./>
+
+    <script>
+          function Time_function() {
+              var Time = new Date() .getHours();
+              var Reply;
+              if (Time < 12 == Time > 0) {
+                  Reply="It is morning time!";
+              }
+              else if (Time >= 12 == Time < 18) {
+                  Reply = "It is afternoon Time";
+              }
+              else {
+                  Reply = " it is evening Time";
+              }
+              document.getElementById("Time_of_day").innerHTML = Reply;
+              
+          }             
+      
+    </script>-->
+
+    <!--Project7_scope_time_function-->
+
+    <p id="Greeting" onclick="get_Date()">Tell Ya What?</p>
+
+    <p>Use the input box, To input a number then Hit Submit.</p>
+    <input type="number" value="0" id="yourInput" placeholder="Enter Number" />
+    <button type="button" onclick="get_Reply()">Submit</button>
+    <p id="Talkback"></p>
+
+    <!--<script>
+      var x = 40;
+
+      function Add_numbers_tiles_1() {
+        var x = 99;
+        document.write(10 + x + "<br>");
+      }
+      function Add_numbers_tiles_2() {
+        document.write(x + 11);
+        console.log(x);
+      }
+      Add_numbers_tiles_1();
+      Add_numbers_tiles_2();
+
+      function get_Date() {
+        if (new Date().getHours() < 18) {
+          document.getElementById("Greeting").innnerHTML = "it is before 10pm";
+        }
+      }
+    </script>-->
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
