@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While Loops and Arrays</title>
+  </head>
+  <body>
+    <!--<h>JavaScript Strings</h>
+        <h2>The Length Property</h2>
+        
+        <p>The length property returns the length of a string </p>
+        <p id="demo"></p>-->
+
+    <!--<script>
+      let text = "What's Going On Man!!";
+      let length = text.length;
+
+      document.getElementById("demo").innerHTML = length;
+    </script>-->
+
+    <!--<p id="Cat"></p>
+    <button onclick="cat_pics()">Click Here</button>-->
+
+    <!--<script>
+      function cat_pics() {
+        var Cat_Picture = [];
+        Cat_Picture[0] = "sleeping";
+        Cat_Picture[1] = "eating";
+        Cat_Picture[2] = "playing";
+        Cat_Picture[3] = "purring";
+
+        document.getElementById("Cat").innerHTML =
+          "In this Picture, the cat is " + Cat_Picture[0] + ".";
+      }
+    </script>-->
+
+    <!--document.getElementById() Assignment-->
+
+    <!--<p id="Constant"></p>
+    <button onclick="constant_function()">Click Here</button>-->
+
+    <!--<script>
+      function constant_function() {
+        const Musical_Instrument =
+          ((type = "guitar"), (brand = "Fender"), (color = "purple"));
+        Musical_Instrument.color = "blue";
+        Musical_Instrument.price = "$900";
+        document.getElementById("Constant").innerHTML =
+          "The cost of the " +
+          Musical_Instrument.type +
+          " was " +
+          Musical_Instrument.price;
+      }
+    </script>-->
+    <!--Let Assignment-->
+    <!--<script>
+      var X = 82;
+      document.write(X);
+      {
+        let X = 13;
+        document.write("<br>" + X);
+      }
+      document.write("<br>" + X);
+    </script>-->
+
+    <!--<script>
+      var R = 42;
+      document.write(R);
+      {
+        var R = 53;
+        document.write("<br>" + R);
+      }
+      document.write("<br>" + R);
+    </script>-->
+
+    <!--<p id="demo"></p>-->
+
+    <!--<script>
+      function myfunction() {
+        return Math.PI;
+      }
+      document.getElementById("demo").innerHTML = myfunction();
+    </script>-->
+
+    <!--<script>
+      document.getElementById("demo").innerHTML = myfunction(" Barry");
+
+      function myfunction(name) {
+        return "Hello" + name;
+      }
+    </script>-->
+    <!--<p id="Car_Object"></p>-->
+
+    <!--<script>
+      let car = {
+        make: "Chevy ",
+        model: "Impala ",
+        year: "2024 ",
+        color: "Black ",
+        description: function () {
+          return (
+            "This car is a " + this.year + this.color + this.make + this.model
+          );
+        },
+      };
+      document.getElementById("Car_Object").innerHTML = car.description();
+    </script>-->
+
+    <!--<p id="demo"></p>-->
+
+    <!--<script>
+      let text = "";
+
+      for (let i = 0; i < 10; i++) {
+        if (i === 3) {
+          break;
+        }
+        text += "the number is " + i + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>-->
+
+    <!--<p id="demo"></p>-->
+
+    <!--<script>
+      let text = " ";
+
+      for (let i = 1; i < 10; i++) {
+        if (i === 3) {
+          continue;
+        }
+        text += i * 10 + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>-->
+
+    <!-- Project10_Loops_Arrays Assignment-->
+
+    <!--<p id="List_of_Flowers"></p>
+    <button onclick="for_Loop()">Click Here</button>-->
+
+    <!--<script>
+      var Flowers = [
+        "StoneCrop",
+        "Roses",
+        "Lillies",
+        "Ferns",
+        "DragonFly",
+        "Trillium",
+        "Daisy",
+      ];
+      var Content = "";
+      var Y;
+      function for_Loop() {
+        for (Y = 0; Y < Flowers.length; Y++) {
+          Content += Flowers[Y] + "<br>";
+        }
+        document.getElementById("List_of_Flowers").innerHTML = Content;
+      }
+    </script>-->
+
+    <!--<p id="Array"></p>
+    <button onclick="array_Function()">Click Here</button>-->
+
+    <!--<script>
+      function array_Function() {
+        var Car_Picture = [];
+        Car_Picture[0] = "speeding";
+        Car_Picture[1] = "Parked";
+        Car_Picture[2] = "Getting washed";
+        Car_Picture[3] = "Getting waxed";
+
+        document.getElementById("Array").innerHTML =
+          "In the Picture, the car is " + Car_Picture[0] + ".";
+      }
+    </script>-->
+
+    <!--Let Statement-->
+
+    <!--<p id="demo"></p>
+    <button type="button" onclick="Call_Loop()">
+      Click Here to exeucte the loop
+    </button>-->
+    <!--<script>
+      const chocolate = ["Areo", "Mars", "Snickers", "Oh Henry"];
+      let len = chocolate.length;
+      let text = " ";
+      for (let i = 0; i < len; i++) {
+        text += chocolate[i] + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>-->
+
+    <!--While Loop-->
+
+    <!--<p id="demo"></p>-->
+
+    <!--<script>
+      let text = " ";
+
+      let i = 0;
+      while (i < 10) {
+        text += "The number is " + i + "<br>";
+        i++;
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>-->
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
