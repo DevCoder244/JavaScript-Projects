@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jquery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="sylesheet" text/css href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  $(document).ready(function () { $("html").append( "
+  <body>
+    \
+    <div id="container">
+      \
+      <div id="inner">
+        \
+        <h1>Basic jQuery</h1>
+        \
+        <p id="1">Paragraph 1</p>
+        \
+        <p id="2">Paragraph 2</p>
+        \
+        <p id="3">Paragraph 3</p>
+        \
+      </div>
+      \
+    </div>
+    \
+  </body>
+  " ); $("#2").css({ color: "red" }); $("#3").click(function () {
+  $("h1").hide(); }); });
+
+  <!--Basic Events-->
+  <!--$("p").click (function () { 
+    console.log("I drive an expensive car"); })-->
+
+  <!--JS Effects-->
+  <!--$("p").hide () { $("div .hidden").show() ; }-->
+</html>
