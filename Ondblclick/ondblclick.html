@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ondblclick Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="onddblclick.css" />
+  </head>
+  <body>
+    <p>Assign an "ondblclick" event to a p element.</p>
+
+    <p id="demo" ondblclick="myFunction()">Dare You Hit Me Twice.</p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hey , You Hit Me Twice!";
+      }
+    </script>
+  </body>
+</html>
